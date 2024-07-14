@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&family=Rubik:wght@400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Jost', sans-serif; */
+    font-family: 'Rubik', sans-serif;
+}
+
+a,ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* ========== header ========== */
+
+header {
+    position: fixed;
+    background-color: transparent;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem ;
+    transition: 0.3s;
+}
+
+header .leftpart, header .rightpart {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 2rem;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+header ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+header ul li a:hover {
+    color: #65C9BB;
+}
+
+header .call-us {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 10px;
+}
+
+header .call-us span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header .call-us a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 1px dashed #fff ;
+    padding-bottom: 5px;
+}
+
+header .donation-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 17px 30px;
+    background-color: #F15B43;
+    border: 1px solid #F15B43;
+    cursor: pointer;
+    transition: .3s ease ;
+}
+
+header .donation-btn:hover {
+    background-color: transparent;
+    border-color: #fff;
+}
+
+header .donation-btn i {
+    font-size: 25px;
+    color: #fff;
+}
+
+header .donation-btn a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    height: 100%;
+}
+
+/* ========== header end ========== */
+
+
+/* ========== hero section ========== */
+.hero {
+    background-image: url(assets/h1_hero1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.hero h1 {
+    font-family: "Jost", sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #fff;
+    line-height: 1;
+    letter-spacing: -.05em;
+}
+
+.hero p {
+    color: #fff;
+    margin-bottom: 41px;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.hero .hero-btn {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 17px 30px;
+    background-color: #65C9BB;
+    border: 1px solid #65C9BB;
+    cursor: pointer;
+    transition: .3s ease ;
+}
+
+.hero .hero-btn:hover {
+    background-color: transparent;
+    border-color: #fff;
+}
+
+/* ========== hero section end ========== */
