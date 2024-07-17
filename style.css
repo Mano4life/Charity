@@ -1,378 +1,507 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&family=Rubik:wght@400;500;600;700;800;900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* font-family: 'Jost', sans-serif; */
-    font-family: 'Rubik', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Jost', sans-serif; */
+  font-family: "Rubik", sans-serif;
 }
 
-a,ul {
-    text-decoration: none;
-    list-style-type: none;
+a,
+ul {
+  text-decoration: none;
+  list-style-type: none;
 }
 
 /* ========== header ========== */
 
 header {
-    position: absolute;
-    top: 0;
-    background-color: transparent;
-    width: 100%;
-    z-index: 999;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.5rem 3rem ;
-    transition: 0.3s;
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+  width: 100%;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3rem;
+  transition: 0.3s;
 }
 
-header .leftpart, header .rightpart {
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    gap: 2rem;
+header .leftpart,
+header .rightpart {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 2rem;
 }
 
 header ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 header ul li a {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 400;
-    transition: 0.3s;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  transition: 0.3s;
 }
 
 header ul li a:hover {
-    color: #65C9BB;
+  color: #65c9bb;
 }
 
 header .call-us {
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    gap: 10px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 10px;
 }
 
 header .call-us span {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 400;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 header .call-us a {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 400;
-    border-bottom: 1px dashed #fff ;
-    padding-bottom: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  border-bottom: 1px dashed #fff;
+  padding-bottom: 5px;
 }
 
 header .donation-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 17px 30px;
-    background-color: #F15B43;
-    border: 1px solid #F15B43;
-    cursor: pointer;
-    transition: .3s ease ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 17px 30px;
+  background-color: #f15b43;
+  border: 1px solid #f15b43;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
 header .donation-btn:hover {
-    background-color: transparent;
-    border-color: #fff;
+  background-color: transparent;
+  border-color: #fff;
 }
 
 header .donation-btn i {
-    font-size: 25px;
-    color: #fff;
+  font-size: 25px;
+  color: #fff;
 }
 
 header .donation-btn a {
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    width: 100%;
-    height: 100%;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  width: 100%;
+  height: 100%;
 }
 
 /* ========== header end ========== */
 
-
 /* ========== hero section ========== */
 .hero {
-    background-image: url(assets/hero/h1_hero1.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
+  background-image: url(assets/hero/h1_hero1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
 }
 
 .hero h1 {
-    font-family: "Jost", sans-serif;
-    font-size: 70px;
-    font-weight: 500;
-    margin-bottom: 20px;
-    color: #fff;
-    line-height: 1;
-    letter-spacing: -.05em;
+  font-family: "Jost", sans-serif;
+  font-size: 70px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #fff;
+  line-height: 1;
+  letter-spacing: -0.05em;
 }
 
 .hero p {
-    color: #fff;
-    margin-bottom: 41px;
-    font-size: 22px;
-    font-weight: 300;
-    line-height: 1.5;
+  color: #fff;
+  margin-bottom: 41px;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.5;
 }
 
 .hero .hero-btn {
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 400;
-    text-transform: capitalize;
-    padding: 17px 30px;
-    background-color: #65C9BB;
-    border: 1px solid #65C9BB;
-    cursor: pointer;
-    transition: .3s ease ;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding: 17px 30px;
+  background-color: #65c9bb;
+  border: 1px solid #65c9bb;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
 .hero .hero-btn:hover {
-    background-color: transparent;
-    border-color: #fff;
+  background-color: transparent;
+  border-color: #fff;
 }
 
 /* ========== hero section end ========== */
 /* ========== commons ========== */
 
 .common-title {
-    font-size: 41px;
-    color: #263B5C;
-    display: block;
-    font-weight: 500;
-    line-height: 1.2;
-    margin-bottom: 30px;
+  font-size: 41px;
+  color: #263b5c;
+  display: block;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 30px;
 }
 
 .common-subtitle {
-    color: #65C9BB;
+  color: #65c9bb;
 }
 
 .common-description {
-    color: #777777;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 1.5;
-    margin-bottom: 30px;
+  color: #777777;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 30px;
 }
 
 .common-btn {
-    padding: 17px 35px;
-    font-size: 18px;
-    border-radius: 0px;
-    font-weight: 500;
-    text-transform: capitalize;
-    border: 2px solid transparent;
-    display: inline-block;
-    transition: .3s ease ;
-    background-color: #F15B43;
-    color: #fff;
+  padding: 17px 35px;
+  font-size: 18px;
+  border-radius: 0px;
+  font-weight: 500;
+  text-transform: capitalize;
+  border: 2px solid transparent;
+  display: inline-block;
+  transition: 0.3s ease;
+  background-color: #f15b43;
+  color: #fff;
 }
 
 .common-btn:hover {
-    background-color: transparent;
-    border-color: #F15B43;
-    color: #F15B43;
+  background-color: transparent;
+  border-color: #f15b43;
+  color: #f15b43;
 }
 /* ========== upcoming section start ========== */
 
 .upcoming-program {
-    background-color: #FCF2EB;
+  background-color: #fcf2eb;
 }
 
 .upcoming-program .upcoming-subtitle {
-    color: #65C9BB;
+  color: #65c9bb;
 }
 
 .upcoming-program .upcoming-title {
-    font-size: 41px;
-    color: #263B5C;
-    display: block;
-    font-weight: 500;
-    line-height: 1.2;
-    margin-bottom: 30px;
+  font-size: 41px;
+  color: #263b5c;
+  display: block;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 30px;
 }
 
 .upcoming-program .upcoming-description {
-    color: #777777;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 1.5;
-    margin-bottom: 30px;
+  color: #777777;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 30px;
 }
 
 .upcoming-program .upcoming-btns button {
-    padding: 17px 35px;
-    font-size: 18px;
-    border-radius: 0px;
-    font-weight: 500;
-    text-transform: capitalize;
-    border: 2px solid transparent;
-    display: inline-block;
-    transition: .3s ease ;
+  padding: 17px 35px;
+  font-size: 18px;
+  border-radius: 0px;
+  font-weight: 500;
+  text-transform: capitalize;
+  border: 2px solid transparent;
+  display: inline-block;
+  transition: 0.3s ease;
 }
 
-.upcoming-program .upcoming-btns button:nth-child(1){
-    background-color: #F15B43;
-    color: #fff;
-    border: 2px solid transparent;
+.upcoming-program .upcoming-btns button:nth-child(1) {
+  background-color: #f15b43;
+  color: #fff;
+  border: 2px solid transparent;
 }
 
-.upcoming-program .upcoming-btns button:nth-child(1):hover{
-    background-color: transparent;
-    color: #F15B43;
-    border: 2px solid #F15B43;
+.upcoming-program .upcoming-btns button:nth-child(1):hover {
+  background-color: transparent;
+  color: #f15b43;
+  border: 2px solid #f15b43;
 }
 
-.upcoming-program .upcoming-btns button:nth-child(2){
-    background-color: transparent;
-    color: #F15B43;
-    border: 2px solid #F15B43;
+.upcoming-program .upcoming-btns button:nth-child(2) {
+  background-color: transparent;
+  color: #f15b43;
+  border: 2px solid #f15b43;
 }
 
-.upcoming-program .upcoming-btns button:nth-child(2):hover{
-    background-color: #F15B43;
-    color: #fff;
-    border: 2px solid #F15B43;
+.upcoming-program .upcoming-btns button:nth-child(2):hover {
+  background-color: #f15b43;
+  color: #fff;
+  border: 2px solid #f15b43;
 }
-
 
 /* ========== upcoming section end ========== */
 /* ========== donations section ========== */
 
 .donations img {
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .donations .donation-content {
-    padding: 26px 18px 8px 22px;
-    border-bottom: 1px solid #ebeff4;
-    background-color: #F4F2F1;
+  padding: 26px 18px 8px 22px;
+  border-bottom: 1px solid #ebeff4;
+  background-color: #f4f2f1;
 }
 
 .donations .donation-title {
-    font-size: 16px;
-    color: #263B5C;
-    transition: .3s ease;
-    font-weight: 500;
-    margin-bottom: 1rem;
+  font-size: 16px;
+  color: #263b5c;
+  transition: 0.3s ease;
+  font-weight: 500;
+  margin-bottom: 1rem;
 }
 
 .donations .donation-content:hover .donation-title {
-    color: #F15B43;
+  color: #f15b43;
 }
 
 .donations .donation-description {
-    font-size: 1rem;
-    color: #777777;
+  font-size: 1rem;
+  color: #777777;
 }
 
 .donations .donation-footer p {
-    font-size: 14px;
-    color: #263B5C;
+  font-size: 14px;
+  color: #263b5c;
 }
 
 .donations .donation-footer .money {
-    font-size: 18px;
-    color: #65C9BB;
+  font-size: 18px;
+  color: #65c9bb;
 }
 
 .donations .donation-footer .donation-btn {
-    padding: 14px 20px;
-    font-size: 18px;
-    border-radius: 0px;
-    font-weight: 500;
-    text-transform: capitalize;
-    border: 2px solid transparent;
-    display: inline-block;
-    transition: .3s ease ;
-    background-color: #F15B43;
-    color: #fff;
+  padding: 14px 20px;
+  font-size: 18px;
+  border-radius: 0px;
+  font-weight: 500;
+  text-transform: capitalize;
+  border: 2px solid transparent;
+  display: inline-block;
+  transition: 0.3s ease;
+  background-color: #f15b43;
+  color: #fff;
 }
 
 .donations .donation-footer .donation-btn:hover {
-    background-color: transparent;
-    border-color: #F15B43;
-    color: #F15B43;
+  background-color: transparent;
+  border-color: #f15b43;
+  color: #f15b43;
 }
 
 /* ========== donations section end ========== */
 /* ========== join us section start ========== */
 .join-us .join-us-btns button {
-    background-color: transparent;
-    color: #F15B43;
-    border-color: #F15B43;
+  background-color: transparent;
+  color: #f15b43;
+  border-color: #f15b43;
 }
 
 .join-us .join-us-btns button:hover {
-    background-color: #F15B43;
-    color: #fff;
-    border-color: #F15B43;
+  background-color: #f15b43;
+  color: #fff;
+  border-color: #f15b43;
 }
 
 /* ========== join us section end ========== */
 /* ========== our services start ========== */
 
 .our-services-area {
-    background-image: url(assets/gallery/section-bg1.jpg);
+  background-image: url(assets/gallery/section-bg1.jpg);
 }
 
 .our-services-area .our-services-subtitle {
-    color: #fff;
+  color: #fff;
 }
 
 .our-services-area .our-services-title {
-    font-size: 41px;
-    color: #fff;
-    display: block;
-    font-weight: 500;
-    line-height: 1.2;
-    font-family: 'Jost', sans-serif;
+  font-size: 41px;
+  color: #fff;
+  display: block;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: "Jost", sans-serif;
 }
 
 .our-services-area .our-services-description {
-    color: #fff;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 1.5;
-    margin-bottom: 30px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 30px;
 }
 
-.our-services-area .services-cap{
-    color: #fff;
+.our-services-area .services-cap {
+  color: #fff;
 }
 
 .our-services-area .services-cap h5 {
-    margin-bottom: 1rem;
-    font-weight: 600;
-    font-size: 24px;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 24px;
 }
-
 
 /* ========== our services end ========== */
 /* ========== blog section start ========== */
+.home-blog a {
+  color: initial;
+}
 
+.home-blog .section-tittle span {
+  color: #65c9bb;
+  font-size: 1rem;
+}
+
+.home-blog .section-tittle h2 {
+  color: #263b5c;
+  font-size: 41px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.single-blogs {
+  background-color: #f4f2f1;
+}
+
+.single-blogs h3 a {
+  color: #263b5c;
+  font-family: "Jost", sans-serif;
+  font-size: 24px;
+}
+
+.single-blogs p {
+  color: #777777;
+}
+
+.single-blogs .browse-btn {
+  color: #f15b43;
+  border-bottom: 2px solid #f15b43;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
 
 /* ========== blog section end ========== */
+/* ========== footer section start ========== */
+footer {
+  background-color: #263b5c;
+  color: #fff;
+}
 
+footer a {
+  color: #fff;
+}
+
+.footer-social li {
+  display: inline-block;
+}
+.footer-social li a {
+  color: #fff;
+  width: 54px;
+  height: 54px;
+  line-height: 54px;
+  border-radius: 0%;
+  font-size: 20px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 8px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .footer-social li a {
+    margin-right: 1px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .footer-social li a {
+    margin-right: 1px;
+  }
+}
+.footer-social li a i {
+  -webkit-transition: all 0.4s ease-out 0s;
+  -moz-transition: all 0.4s ease-out 0s;
+  -ms-transition: all 0.4s ease-out 0s;
+  -o-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+}
+.footer-social li a:hover {
+  color: #ffff;
+}
+.footer-social li a:hover i {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+}
+.footer-social li a i {
+  display: inline-block;
+}
+.footer-social li .fb {
+  background: #3b5998;
+}
+.footer-social li .yt {
+  background: #ff0000;
+}
+.footer-social li .lnk {
+  background: #0077b5;
+}
+.footer-social li .ins {
+  background: #405de6;
+}
+
+footer .footer-btn {
+    background-color: #f15b43;
+    border: 1px solid #f15b43;
+    color: #fff;
+    padding: 10px 1rem;
+    transition: .3s all;
+}
+
+footer .footer-btn:hover {
+    background-color: transparent;
+    border-color: #fff;
+}
+
+footer .footer-bottom-area {
+    border-top: 1px solid #ddd;
+    margin-top: 1rem;
+    margin-inline: 5rem;
+    padding-top: 2rem;
+}
+
+.footer-copy-right a, .footer-copy-right i {
+    color: #65c9bb;
+}
