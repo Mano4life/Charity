@@ -332,7 +332,47 @@ header .donation-btn a {
 }
 
 /* ========== join us section end ========== */
+/* ========== our services start ========== */
 
 .our-services-area {
     background-image: url(assets/gallery/section-bg1.jpg);
 }
+
+.our-services-area .our-services-subtitle {
+    color: #fff;
+}
+
+.our-services-area .our-services-title {
+    font-size: 41px;
+    color: #fff;
+    display: block;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: 'Jost', sans-serif;
+}
+
+.our-services-area .our-services-description {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.our-services-area .services-cap{
+    color: #fff;
+}
+
+.our-services-area .services-cap h5 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+
+/* ========== our services end ========== */
+/* ========== blog section start ========== */
+
+
+/* ========== blog section end ========== */
+
