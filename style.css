@@ -16,7 +16,8 @@ a,ul {
 /* ========== header ========== */
 
 header {
-    position: fixed;
+    position: absolute;
+    top: 0;
     background-color: transparent;
     width: 100%;
     z-index: 999;
@@ -108,7 +109,7 @@ header .donation-btn a {
 
 /* ========== hero section ========== */
 .hero {
-    background-image: url(assets/h1_hero1.jpg);
+    background-image: url(assets/hero/h1_hero1.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -151,3 +152,187 @@ header .donation-btn a {
 }
 
 /* ========== hero section end ========== */
+/* ========== commons ========== */
+
+.common-title {
+    font-size: 41px;
+    color: #263B5C;
+    display: block;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.common-subtitle {
+    color: #65C9BB;
+}
+
+.common-description {
+    color: #777777;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.common-btn {
+    padding: 17px 35px;
+    font-size: 18px;
+    border-radius: 0px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid transparent;
+    display: inline-block;
+    transition: .3s ease ;
+    background-color: #F15B43;
+    color: #fff;
+}
+
+.common-btn:hover {
+    background-color: transparent;
+    border-color: #F15B43;
+    color: #F15B43;
+}
+/* ========== upcoming section start ========== */
+
+.upcoming-program {
+    background-color: #FCF2EB;
+}
+
+.upcoming-program .upcoming-subtitle {
+    color: #65C9BB;
+}
+
+.upcoming-program .upcoming-title {
+    font-size: 41px;
+    color: #263B5C;
+    display: block;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.upcoming-program .upcoming-description {
+    color: #777777;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.upcoming-program .upcoming-btns button {
+    padding: 17px 35px;
+    font-size: 18px;
+    border-radius: 0px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid transparent;
+    display: inline-block;
+    transition: .3s ease ;
+}
+
+.upcoming-program .upcoming-btns button:nth-child(1){
+    background-color: #F15B43;
+    color: #fff;
+    border: 2px solid transparent;
+}
+
+.upcoming-program .upcoming-btns button:nth-child(1):hover{
+    background-color: transparent;
+    color: #F15B43;
+    border: 2px solid #F15B43;
+}
+
+.upcoming-program .upcoming-btns button:nth-child(2){
+    background-color: transparent;
+    color: #F15B43;
+    border: 2px solid #F15B43;
+}
+
+.upcoming-program .upcoming-btns button:nth-child(2):hover{
+    background-color: #F15B43;
+    color: #fff;
+    border: 2px solid #F15B43;
+}
+
+
+/* ========== upcoming section end ========== */
+/* ========== donations section ========== */
+
+.donations img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.donations .donation-content {
+    padding: 26px 18px 8px 22px;
+    border-bottom: 1px solid #ebeff4;
+    background-color: #F4F2F1;
+}
+
+.donations .donation-title {
+    font-size: 16px;
+    color: #263B5C;
+    transition: .3s ease;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.donations .donation-content:hover .donation-title {
+    color: #F15B43;
+}
+
+.donations .donation-description {
+    font-size: 1rem;
+    color: #777777;
+}
+
+.donations .donation-footer p {
+    font-size: 14px;
+    color: #263B5C;
+}
+
+.donations .donation-footer .money {
+    font-size: 18px;
+    color: #65C9BB;
+}
+
+.donations .donation-footer .donation-btn {
+    padding: 14px 20px;
+    font-size: 18px;
+    border-radius: 0px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid transparent;
+    display: inline-block;
+    transition: .3s ease ;
+    background-color: #F15B43;
+    color: #fff;
+}
+
+.donations .donation-footer .donation-btn:hover {
+    background-color: transparent;
+    border-color: #F15B43;
+    color: #F15B43;
+}
+
+/* ========== donations section end ========== */
+/* ========== join us section start ========== */
+.join-us .join-us-btns button {
+    background-color: transparent;
+    color: #F15B43;
+    border-color: #F15B43;
+}
+
+.join-us .join-us-btns button:hover {
+    background-color: #F15B43;
+    color: #fff;
+    border-color: #F15B43;
+}
+
+/* ========== join us section end ========== */
+
+.our-services-area {
+    background-image: url(assets/gallery/section-bg1.jpg);
+}

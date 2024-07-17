@@ -1,63 +1,507 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Charity</title>
     <!-- bootstrap styles -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <!-- icons & fonts -->
-     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css' integrity='sha512-cn16Qw8mzTBKpu08X0fwhTSv02kK/FojjNLz0bwp2xJ4H+yalwzXKFw/5cLzuBZCxGWIA+95X4skzvo8STNtSg==' crossorigin='anonymous'/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css"
+      integrity="sha512-cn16Qw8mzTBKpu08X0fwhTSv02kK/FojjNLz0bwp2xJ4H+yalwzXKFw/5cLzuBZCxGWIA+95X4skzvo8STNtSg=="
+      crossorigin="anonymous"
+    />
     <!-- My styles -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- =================== Header ==================== -->
     <header class="header d-flex justify-content-between align-items-center">
-        <div class="leftpart align-items-baseline">
-            <div class="logo">
-                <img src="assets/logo.png" alt="logo">
-            </div>
-            <ul class="links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Who we are</a></li>
-                <li><a href="#">Programs</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
+      <div class="leftpart align-items-baseline">
+        <div class="logo">
+          <img src="assets/logo/logo.png" alt="logo" />
         </div>
-        <div class="rightpart align-items-center">
-            <div class="call-us">
-                <span>Call Us:</span>
-                <a href="tel:0 (78) 675 3674">0 (78) 675 3674</a>
-            </div>
-            <div class="donation-btn">
-                <i class='bx bxs-heart'></i>
-                <a href="#">Make a Donation</a>
-            </div>
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Who we are</a></li>
+          <li><a href="#">Programs</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="rightpart align-items-center">
+        <div class="call-us">
+          <span>Call Us:</span>
+          <a href="tel:0 (78) 675 3674">0 (78) 675 3674</a>
         </div>
+        <div class="donation-btn">
+          <i class="bx bxs-heart"></i>
+          <a href="#">Make a Donation</a>
+        </div>
+      </div>
     </header>
 
     <!-- =================== Main ==================== -->
     <main>
-        <!-- hero section -->
-        <section class="hero container-fluid d-flex align-items-center">
-            <div class="hero-content container">
-                <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-8 col-sm-10">
-                    <h1>Give a helping hand to those who need it!</h1>
-                    <p>When a child gets access to good food, it can change everything.</p>
-                    <a href="#" class="hero-btn">
-                        on going programs
-                    </a>
+      <!-- hero section -->
+      <section class="hero container-fluid d-flex align-items-center">
+        <div class="hero-content container">
+          <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-8 col-sm-10">
+            <h1>Give a helping hand to those who need it!</h1>
+            <p>
+              When a child gets access to good food, it can change everything.
+            </p>
+            <a href="#" class="hero-btn"> on going programs </a>
+          </div>
+        </div>
+      </section>
+      <!-- =================== upcoming section ==================== -->
+
+      <section class="upcoming-program p-5">
+        <div class="container">
+          <div
+            class="row align-items-center justify-content-center gap-5 flex-nowrap"
+          >
+            <div class="col-6 p-5">
+              <img class="w-100" src="assets/gallery/about1.jpg" alt="upcoming_img" />
+            </div>
+            <div class="right-section col-6 p-5">
+              <p class="upcoming-subtitle common-subtitle">Upcoming Program</p>
+              <h1 class="upcoming-title common-title">
+                Donate vitamin B12 supply program
+              </h1>
+              <p class="upcoming-description common-description">
+                When a child gets access to good food, it can change just about
+                everything. Sed do eiusmod tempor incididunt dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+              </p>
+              <div class="upcoming-btns d-flex gap-4">
+                <button class="common-btn">Donate Now</button>
+                <button>View Programs</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- =================== end upcoming section ==================== -->
+      <!-- =================== about us section start ==================== -->
+      <section class="about-us py-5">
+        <div class="container">
+          <div
+            class="row align-items-center justify-content-center gap-5 flex-nowrap"
+          >
+            <div class="right-section col-6 p-5">
+              <p class="about-us-subtitle common-subtitle">about us</p>
+              <h1 class="about-us-title common-title">
+                We are tender heart charity foundation.
+              </h1>
+              <p class="about-us-description common-description">
+                When a child gets access to good food, it can change just about
+                everything. Sed do eiusmod tempor incididunt dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+              </p>
+              <div class="about-us-btns d-flex gap-4">
+                <button class="common-btn">Discover More</button>
+              </div>
+            </div>
+            <div class="col-6 p-5">
+              <img class="w-100" src="assets/gallery/about2.png" alt="about-us_img" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- =================== about us section end ==================== -->
+      <!-- =================== donation section start ==================== -->
+      <section class="donations">
+        <div class="container-fluid py-5">
+          <div class="row align-items-center flex-nowrap">
+            <div class="col-4">
+              <img src="assets/gallery/class-img1.jpg" alt="card-img" />
+              <div class="donation-content">
+                <div class="donation-title">Help the ecosystem</div>
+                <div class="donation-description">
+                  Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis
+                  aliquet pulvinar ante start in life and the opportunity to
+                  learn.
                 </div>
-            </div> 
-        </section>
+                <div
+                  class="donation-footer d-flex align-items-center justify-content-between pt-5"
+                >
+                  <div class="goal">
+                    <h3 class="money">$67,845</h3>
+                    <p>Goal</p>
+                  </div>
+                  <div class="raised">
+                    <h3 class="money">$48,845</h3>
+                    <p>Raised</p>
+                  </div>
+                  <button class="donation-btn">Donate</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <img src="assets/gallery/class-img2.jpg" alt="card-img" />
+              <div class="donation-content">
+                <div class="donation-title">Donate Vitamin B12 Program</div>
+                <div class="donation-description">
+                  Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis
+                  aliquet pulvinar ante start in life and the opportunity to
+                  learn.
+                </div>
+                <div
+                  class="donation-footer d-flex align-items-center justify-content-between pt-5"
+                >
+                  <div class="goal">
+                    <h3 class="money">$67,845</h3>
+                    <p>Goal</p>
+                  </div>
+                  <div class="raised">
+                    <h3 class="money">$48,845</h3>
+                    <p>Raised</p>
+                  </div>
+                  <button class="donation-btn">Donate</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <img src="assets/gallery/class-img3.jpg" alt="card-img" />
+              <div class="donation-content">
+                <div class="donation-title">View Savers In Deworm Program</div>
+                <div class="donation-description">
+                  Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis
+                  aliquet pulvinar ante start in life and the opportunity to
+                  learn.
+                </div>
+                <div
+                  class="donation-footer d-flex align-items-center justify-content-between pt-5"
+                >
+                  <div class="goal">
+                    <h3 class="money">$67,845</h3>
+                    <p>Goal</p>
+                  </div>
+                  <div class="raised">
+                    <h3 class="money">$48,845</h3>
+                    <p>Raised</p>
+                  </div>
+                  <button class="donation-btn">Donate</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- =================== donation section end ==================== -->
+      <!-- =================== join us today start ==================== -->
+      <section class="join-us p-5">
+        <div class="container">
+          <div
+            class="row align-items-center justify-content-center gap-5 flex-nowrap"
+          >
+            <div class="col-6 p-5">
+              <img class="w-100" src="assets/gallery/about3.jpg" alt="join-us_img" />
+            </div>
+            <div class="right-section col-6 p-5">
+              <p class="join-us-subtitle common-subtitle">Helping Today</p>
+              <h1 class="join-us-title common-title">What we are doing</h1>
+              <p class="join-us-description common-description">
+                When a child gets access to good food, it can change just about
+                everything. Sed do eiusmod tempor incididunt dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+              </p>
+              <div class="join-us-btns d-flex gap-4">
+                <button class="common-btn">Join Us Today</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================== join us today end ==================== -->
+
+      <div
+        class="our-services-area section-img-bg section-padding"
+      >
+        <div class="container">
+          <div class="row justify-content-center mb-25">
+            <div class="col-xl-12">
+              <div class="section-tittle section-tittle2 text-center">
+                <span>Helping today</span>
+                <h2>How we help people</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-between">
+            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+              <div class="single-services1 text-center">
+                <div class="services-ion">
+                  <img src="assets/icon/services1.svg" alt />
+                </div>
+                <div class="services-cap">
+                  <h5><a href="#">Pure Food & Water</a></h5>
+                  <p>
+                    Odio aliquet, fringilla odio eget, tincidunt nunc duis
+                    aliquet pulvinar ante employees and organizations to
+                    support.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+              <div class="single-services1 text-center">
+                <div class="services-ion">
+                  <img src="assets/icon/services2.svg" alt />
+                </div>
+                <div class="services-cap">
+                  <h5><a href="#">Health & Medicine</a></h5>
+                  <p>
+                    Odio aliquet, fringilla odio eget, tincidunt nunc duis
+                    aliquet pulvinar ante employees and organizations to
+                    support.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+              <div class="single-services1 text-center">
+                <div class="services-ion">
+                  <img src="assets/icon/services3.svg" alt />
+                </div>
+                <div class="services-cap">
+                  <h5><a href="#">Education</a></h5>
+                  <p>
+                    Odio aliquet, fringilla odio eget, tincidunt nunc duis
+                    aliquet pulvinar ante employees and organizations to
+                    support.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-blog section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-xxl-3 col-xl-3">
+              <div class="section-tittle mb-130">
+                <span>News</span>
+                <h2>Latest Blog</h2>
+              </div>
+            </div>
+            <div class="col-xxl-9 col-xl-9">
+              <div class="blog-active">
+                <div class="single-blogs">
+                  <div class="blog-img">
+                    <img src="assets/gallery/blog1.jpg" alt />
+                  </div>
+                  <div class="blog-caption">
+                    <h3><a href="#">Help the ecosystems</a></h3>
+                    <p>
+                      Sedac odio aliquet, fringilla odio eget, tincidunt nunc
+                      duis aliquet pulvinar ante start in life and the
+                      opportunity to learn.
+                    </p>
+                    <a href="#" class="browse-btn">Read More</a>
+                  </div>
+                </div>
+
+                <div class="single-blogs">
+                  <div class="blog-img">
+                    <img src="assets/gallery/blog2.jpg" alt />
+                  </div>
+                  <div class="blog-caption">
+                    <h3><a href="#">Help the ecosystems</a></h3>
+                    <p>
+                      Sedac odio aliquet, fringilla odio eget, tincidunt nunc
+                      duis aliquet pulvinar ante start in life and the
+                      opportunity to learn.
+                    </p>
+                    <a href="#" class="browse-btn">Read More</a>
+                  </div>
+                </div>
+
+                <div class="single-blogs">
+                  <div class="blog-img">
+                    <img src="assets/gallery/blog1.jpg" alt />
+                  </div>
+                  <div class="blog-caption">
+                    <h3><a href="#">Help the ecosystems</a></h3>
+                    <p>
+                      Sedac odio aliquet, fringilla odio eget, tincidunt nunc
+                      duis aliquet pulvinar ante start in life and the
+                      opportunity to learn.
+                    </p>
+                    <a href="#" class="browse-btn">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="map-are section-padding40">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1786539269224!2d55.27218771500953!3d25.197196983896188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj%20Khalifa!5e0!3m2!1sen!2sbd!4v1588690958350!5m2!1sen!2sbd"
+            width="100%"
+            height="500"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+        </div>
+      </div>
     </main>
     <!-- =================== Footer ==================== -->
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footer-area footer-padding">
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-xl-4 col-lg-6 col-md-6 col-sm-10">
+                <div class="single-footer-caption mb-50">
+                  <div class="single-footer-caption mb-30">
+                    <div class="footer-logo mb-25">
+                      <a href="index.html"
+                        ><img src="assets/logo/logo2_footer.png" alt
+                      /></a>
+                    </div>
+                    <div class="footer-tittle">
+                      <div class="footer-pera">
+                        <p>
+                          When a child gets access to good food, it can change
+                          just about everything. Sed do eiusmod tempor
+                          incididunt dolore magna aliqua.
+                        </p>
+                      </div>
+                    </div>
 
+                    <ul class="footer-social">
+                      <li>
+                        <a class="fb" href="https://bit.ly/sai4ull"
+                          ><i class="fab fa-facebook"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a class="lnk" href="#"
+                          ><i class="fab fa-linkedin-in"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a class="ins" href="#"
+                          ><i class="fab fa-instagram"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a class="yt" href="#"
+                          ><i class="fab fa-youtube"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                <div class="single-footer-caption mb-50">
+                  <div class="footer-tittle">
+                    <h4>Navigation</h4>
+                    <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Blog</a></li>
+                      <li><a href="#">Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                <div class="single-footer-caption mb-50">
+                  <div class="footer-tittle">
+                    <h4>Contact Us</h4>
+                    <ul>
+                      <li>
+                        <a href="#">4486 Richards Avenue, Modesto CA - 95354</a>
+                      </li>
+                      <li><a href="#">209-818-6041</a></li>
+                      <li>
+                        <a href="#"
+                          ><span
+                            >mail@mail.com</span
+                          ></a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                <div class="single-footer-caption mb-50">
+                  <div class="footer-tittle">
+                    <h4>Support</h4>
+                    <p>When a child gets access to good food, it can change.</p>
+                    <a href="#" class="btn_1">Join Us Today</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom-area">
+          <div class="container">
+            <div class="footer-border">
+              <div class="row">
+                <div class="col-xl-12">
+                  <div class="footer-copy-right text-center">
+                    <p>
+                      Copyright &copy;
+                      <script
+                        data-cfasync="false"
+                        src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+                      ></script>
+                      <script>
+                        document.write(new Date().getFullYear());
+                      </script>
+                      All rights reserved | This template is made with
+                      <i
+                        class="fa fa-heart color-danger"
+                        aria-hidden="true"
+                      ></i>
+                      by
+                      <a
+                        href="https://colorlib.com"
+                        target="_blank"
+                        rel="nofollow noopener"
+                        >Colorlib</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- bootstrap script -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
